@@ -60,7 +60,7 @@ class Game:
                     game_close = True
                 pygame.time.wait(100)
 
-        # Threads
+        # Threads das cobras
         threads = [threading.Thread(target=move_snake, args=(self.snakes[i],)) for i in range(2)]
         for thread in threads:
             thread.start()
