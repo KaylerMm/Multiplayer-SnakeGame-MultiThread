@@ -4,7 +4,7 @@ import threading
 
 def play_music():
     p.mixer.init()
-    p.mixer.music.load("./theme.mp3")
+    p.mixer.music.load("./code/theme.mp3")
     p.mixer.music.play(-1)
     
 def stop_music():
